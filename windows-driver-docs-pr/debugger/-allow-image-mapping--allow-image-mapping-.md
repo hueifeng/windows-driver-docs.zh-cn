@@ -19,10 +19,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "63334776"
 ---
-# <a name="allowimagemapping-allow-image-mapping"></a>.allow\_图像\_映射 （允许图像映射）
+# <a name="allowimagemapping-allow-image-mapping"></a>.allow\_image\_mapping （允许图像映射）
 
 
-**.Allow\_映像\_映射**将映射控件是否图像文件的命令。
+**.Allow\_image\_mapping**将映射控件是否图像文件的命令。
 
 ```dbgcmd
     .allow_image_mapping [/r] 0 
@@ -70,7 +70,7 @@ ms.locfileid: "63334776"
 <a name="remarks"></a>备注
 -------
 
-不带任何参数， **.allow\_映像\_映射**是否当前允许图像文件映射将显示。 默认情况下，允许此映射。
+不带任何参数， **.allow\_image\_mapping**是否当前允许图像文件映射将显示。 默认情况下，允许此映射。
 
 在调试小型转储时，图像映射是最常见。 如果 DbgHelp 无法调试记录 （例如，在期间访问内核调试时内存已调出），也可能会出现图像映射。
 
